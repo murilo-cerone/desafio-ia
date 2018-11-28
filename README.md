@@ -30,6 +30,8 @@ Produza uma **Regex Python** que obtenha apenas os nomes completos
 
 ## Classificação de Documentos
 
+
+### O Caso Energia
 No MPRJ tratamos de grandes massas de documentos textuais.<br>
 Hoje, boa parte deste trabalho é realizado pelos servidores da casa de forma manual, old fashion: abre o documento, lê o documento, entende o documento, toma uma decisão acerca do documento.<br>
 
@@ -52,11 +54,70 @@ Para não maltratar muito nosso servidor público, separamos Decisões Interlocu
     - Dificuldade de Renegociacao
     - Negativação Indevida
 
+Claro, temos que levar em consideração a qualidade dessa classificação, seus viéses e possíveis erros que, apesar de todo o capricho, nosso estagiário possa ter cometido.
 
 Utilizando esta massa de dados produzimos um modelo de Machine Learning que produziu os seguintes resultados:
 
+```
+                                           precision    recall  f1-score   support
 
+                      DemandaNaoResolvida       0.93      0.84      0.88      8954
+                  DificuldadeRenegociacao       0.92      0.84      0.87      9120
+DificuldadeContratacaoRecusaInjustificada       0.73      0.93      0.82      6526
+     InterrupcaoInstabilidadeFornecimento       0.82      0.81      0.81      8444
+                        CobrancaSobAmeaca       0.98      0.86      0.92      9476
+                      NegativacaoIndevida       0.98      0.94      0.96      8484
+              CobrancaServicoNaoFornecido       0.89      0.95      0.92      7713
+                           CobrancaTarifa       0.83      0.95      0.89      7123
+
+                              avg / total       0.89      0.89      0.89     65840
+```
 
 
 1 - Você consegue pensar em um Método Estatístico ou de Machine Learning para criar um modelo de aprendizado de máquina que possa utilizar esta massa para treino?
 Implemente e demonstre seus testes e precisão.
+
+2 - Explique porque você acha seus resultados piores ou melhores que os resultados que produzimos.
+
+<hr>
+
+### O Caso Telecom
+
+Foi realizado um trabalho muito semelhante ao anterior, nos processos relacionados a Telecomunicações. 
+
+Porém, como nosso estagiário é muito organizado, ele nos deu de baclassificando em ordem por cada uma dessas classesndeja uma tabela com termos que ele mesmo identificou como muito importantes nas Decisões e Sentenças que foram separadas, é ela:
+
+```
+    Termos                          Classe
+1   Com: combo, pacote              Pacote de Serviços ( Combo )
+
+2   Com: fixa, banda larga,         Telefonia Fixa
+    velox, modem
+    Sem: internet e combo
+3   Com: fixa                       Internet Fixa
+
+4   Com: pré-pago                   Telefonia Móvel Pré-paga
+    Sem: TV por assinatura
+
+5   Com: TV, assinatura, canais     TV por Assinatura
+    Sem: Combo
+
+6   Com: pacote de dados, 3G e      Internet Móvel
+    4G
+
+7   Com: celular, telefone          Telefonia Móvel Pós-paga
+    móvel
+```
+
+Utiliznado esta tabela e tentando classificar cada um desses documentos seguindo a ordem informada, ele está conseguindo classificar dezenas de documentos.
+
+Mas queremos atingir os milhares!
+
+1 - Você consegue pensar em um processo para separar documentos em pastas como no exercício anterior?
+
+Apesar de muito esforçado, não é possível identificar com facilidade muitas outras classes, nosso estagiário é apenas um ser humano! Entendemos suas limitações.
+
+Após esse processo de filtragem, foi produzido junto uma enorme massa de documentos que não foram classificados em nenhuma dessas categorias.
+
+2 - Implemente um método de Machine Learning que consiga identificar possíveis novos tópicos e os termos que os identificam.
+Demonstre seus testes, erros, acertos e precisão.
