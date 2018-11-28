@@ -85,7 +85,7 @@ Implemente e demonstre seus testes e precisão.
 
 Foi realizado um trabalho muito semelhante ao anterior, nos processos relacionados a Telecomunicações. 
 
-Porém, como nosso estagiário é muito organizado, ele nos deu de baclassificando em ordem por cada uma dessas classesndeja uma tabela com termos que ele mesmo identificou como muito importantes nas Decisões e Sentenças que foram separadas, é ela:
+Porém, como nosso estagiário é muito organizado, ele nos deu de bandeja uma tabela com termos que ele mesmo identificou como muito importantes nas Decisões e Sentenças que foram separadas - classificando em ordem por cada uma dessas classes. Segue a tabela:
 
 ```
     Termos                          Classe
@@ -109,7 +109,7 @@ Porém, como nosso estagiário é muito organizado, ele nos deu de baclassifican
     móvel
 ```
 
-Utiliznado esta tabela e tentando classificar cada um desses documentos seguindo a ordem informada, ele está conseguindo classificar dezenas de documentos.
+Utilizando esta tabela e tentando classificar cada um desses documentos seguindo a ordem informada, ele está conseguindo classificar dezenas de documentos.
 
 Mas queremos atingir os milhares!
 
