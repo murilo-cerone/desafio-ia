@@ -1,6 +1,6 @@
 # Desafio Python MPRJ
 
-1 - Enquanto N é um inteiro positivo, considere a função f(n), que satisfaz as seguintes sentenças:
+1 - Enquanto `N` é um inteiro positivo, considere a função `f(n)`, que satisfaz as seguintes sentenças:
 
 ```
 f(0) = 0
@@ -8,9 +8,9 @@ f(0) = 1
 f(n) = f(n-1) + f(n-2)
 ```
 
-Crie um programa que determine f(n)
+Crie um programa que determine `f(n)`.
 
-2 - Utilize o programa anterior para calcular f(10000). Estime a complexidade do algoritmo.
+2 - Utilize o programa anterior para calcular `f(10000)`. Estime a complexidade do algoritmo.
 
 3 - Implemente um programa que liste todos os nós de um nível de uma árvore binária.
 
@@ -50,11 +50,11 @@ Para não maltratar muito nosso servidor público, separamos Decisões Interlocu
     - Dificuldade de Contratação ou Recusa Injustificada
     - Interrupção ou Instabilidade no Fornecimento
     - Cobrança Sob Ameaça
-    - Danos a Eletro-domésticos
-    - Dificuldade de Renegociacao
+    - Danos a Eletrodomésticos
+    - Dificuldade de Renegociação
     - Negativação Indevida
 
-Claro, temos que levar em consideração a qualidade dessa classificação, seus viéses e possíveis erros que, apesar de todo o capricho, nosso estagiário possa ter cometido.
+Claro, temos que levar em consideração a qualidade dessa classificação, seus vieses e possíveis erros que, apesar de todo o capricho, nosso estagiário possa ter cometido.
 
 Utilizando esta massa de dados produzimos um modelo de Machine Learning que produziu os seguintes resultados:
 
@@ -127,7 +127,7 @@ Demonstre seus testes, erros, acertos e precisão.
 ## Entrega
 
     - O desafio deve ser entregue em até sete dias corridos após a confirmação do recebimiento do e-mail
-    - O código e todos os insumos devem estar disponíveis em um repositório público versionado com GIT
+    - O código e todos os insumos devem estar disponíveis em um repositório público versionado com Git
     - Você pode fazer em em Python ou no Jupyter, em Python :P
     - Nós gostamos muito de testes, faça um código testado e testável
     - Nossos clientes são humanos, gostam de visualizações ricas, a comunicação dos resultados é importantíssima, capriche!
