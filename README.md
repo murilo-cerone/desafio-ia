@@ -56,7 +56,7 @@ Para não maltratar muito nosso servidor público, separamos Decisões Interlocu
 
 Claro, temos que levar em consideração a qualidade dessa classificação, seus vieses e possíveis erros que, apesar de todo o capricho, nosso estagiário possa ter cometido.
 
-Utilizando esta massa de dados produzimos um modelo de Machine Learning que produziu os seguintes resultados:
+Utilizando esta massa de dados treinamos um modelo de Machine Learning que produziu os seguintes resultados:
 
 ```
                                            precision    recall  f1-score   support
