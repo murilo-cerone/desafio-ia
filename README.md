@@ -16,7 +16,7 @@ Crie um programa que determine `f(n)`.
 
 4 - Você possui um site com um bilhão de usuários, cujos IDs são inteiros, positivos e sequenciais (de 1 até um bilhão).<br>
 O log de acesso do seu servidor no último mês tem 500GB, onde constam esses IDs.<br>
-Você quer saber quantos usuários únicos acessaram o site nesse período, mas sua máquina só tem 512 MB de memória.<br>
+Você quer saber quantos usuários únicos acessaram o site nesse período, mas sua máquina só tem 512 MB de memória RAM.<br>
 Como você desenvolveria uma aplicação para esse fim sem usar ferramentas externas?
 
 5 - Recebemos recentemente um arquivo de texto com nomes de diversos procurados pela justiça no seguinte formato:
