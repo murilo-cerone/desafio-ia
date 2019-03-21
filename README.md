@@ -128,7 +128,7 @@ Demonstre seus testes, erros, acertos e precisão.
 
     - O desafio deve ser entregue em até sete dias corridos após a confirmação do recebimiento do e-mail
     - O código e todos os insumos devem estar disponíveis em um repositório público versionado com Git
-    - Você pode fazer em em Python ou no Jupyter, em Python :P
+    - Você pode fazer em Python ou no Jupyter, em Python :P
     - Nós gostamos muito de testes, faça um código testado e testável, quando achar necessário
     - Nossos clientes são humanos, gostam de visualizações ricas, a comunicação dos resultados é importantíssima, capriche!
     - Existem diversas receitas para este bolo. Você tem liberdade para escolher as suas ferramentas, desde que seja feito em Python. Solucione o problema mostrando pra gente no que você é bom/boa, mas não se esqueça de ser efetivo
